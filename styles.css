@@ -12,6 +12,16 @@ header h1 {
   color: #1a13a5;
 }
 
+/* Estilo para la imagen del header */
+header img {
+    display: block; /* Centrar la imagen */
+    margin: 20px auto; /* Espaciado superior e inferior, centrado horizontal */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgb(0 0 0 / 20%); /* Sombra suave con notación moderna */
+    max-width: 50%; /* Reduce el tamaño al 50% del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
 main section > h2 {
   color: #1976d9;
   margin-top: 20px;
@@ -24,7 +34,7 @@ h3 {
 
 /* Estilo para el nav */
 nav {
-    background-color: #b53434; /* Color de fondo del nav */
+    background-color: #333; /* Fondo oscuro */
     padding: 10px 0;
 }
 
@@ -53,7 +63,7 @@ nav ul li a:hover {
 
 /* Hover para elementos de lista */
 ul li:hover {
-  color: #3f7;
+  color: rgb(240 125 125); /* Notación moderna */
   cursor: pointer;
 }
 
@@ -63,14 +73,4 @@ footer {
   padding: 10px;
   background-color: #cb9595;
   margin-top: 20px;
-}
-
-/* Estilo para la imagen de perfil */
-.profile-pic {
-    display: block;
-    margin: 0 auto;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%; /* Hace la imagen circular */
-    border: 3px solid #333;
 }
